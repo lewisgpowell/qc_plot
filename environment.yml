@@ -1,0 +1,15 @@
+name: qc_plot
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - qcodes>=0.44
+  - panel
+  - hvplot
+  - bokeh
+  - ipython
+  - xarray
+  - datashader
+  - ipykernel
